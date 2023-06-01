@@ -65,6 +65,12 @@
            <style>
             @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Montserrat:wght@300;600&display=swap');
 
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
             #h1{
                 font-family: dancing script;
                 font-size: 76px;
@@ -75,6 +81,23 @@
                 margin-top: 35px; 
                 font-weight: 900;
                 font-family: montserrat;
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                animation: typing 3s ease-in-out infinite;,
+                           cursor .4s infinite alternate;
+
+            }
+
+            @keyframes h2{
+                50%{
+                    border-right-color: transparent;
+                }
+            }
+            @keyframes typing{
+                from{
+                    width: 0;
+                }
             }
 
             .face,.min{
@@ -112,6 +135,7 @@
                     stroke-dashoffset: 0;
                 }
             }
+
            </style>
             
 
