@@ -6,6 +6,27 @@
                 box-sizing: border-box;
             }
             
+            .container-l{
+                max-width: 50%; 
+                width: 50%; 
+                background-size: cover; 
+                background-position: center;
+                background-image: url('./img/nathan-dumlao-4FHF4kCnj8A-unsplash.jpg')  
+            }
+
+            .container-r{
+                max-width: 50%; 
+                width: 50%; 
+                background-size: cover; 
+                background-position: center;
+                background-image: url('./img/annie-spratt-1tqgq0yvTmE-unsplash.jpg'); 
+                background-color: #0f1429; 
+                display: flex; 
+                align-items: center;
+                color: white;
+                
+            }
+
             #h1{
                 font-family: dancing script;
                 font-size: 76px;
@@ -37,7 +58,7 @@
 
             .face,.min{
                stroke: #fff;
-               stroke-width: 10px;
+               stroke-width: 12px;
                stroke-dashoffset: 0;
                stroke-dasharray: 2000;
             }
@@ -69,4 +90,8 @@
                 100%{
                     stroke-dashoffset: 0;
                 }
+            }
+
+            #Sign-in{
+                font-family: Montserrat;
             }
