@@ -7,22 +7,22 @@
             }
             
             .container-l{
-                max-width: 50%; 
-                width: 50%; 
+                max-width: 100%; 
+                width: 80%; 
                 background-size: cover; 
                 background-position: center;
                 background-image: url('./img/nathan-dumlao-4FHF4kCnj8A-unsplash.jpg')  
             }
 
             .container-r{
-                max-width: 50%; 
-                width: 50%; 
+                max-width: 100%; 
+                width: 80%; 
+                display: flex; 
+                align-items: center;
                 background-size: cover; 
                 background-position: center;
                 background-image: url('./img/annie-spratt-1tqgq0yvTmE-unsplash.jpg'); 
                 background-color: #0f1429; 
-                display: flex; 
-                align-items: center;
                 color: white;
                 
             }
